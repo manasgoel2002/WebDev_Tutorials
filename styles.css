@@ -1,0 +1,216 @@
+/* styles.css */
+
+body {
+    background-color: #121212;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.jumbotron {
+    background-color: #333;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.card {
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+section {
+    padding: 40px 0;
+}
+
+#home {
+    background-image: url('black-background-modern-dark-abstract-texture-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+#home .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+}
+
+#home .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+#programming-languages {
+    padding: 50px 0;
+}
+
+.card {
+    border: none;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+#frameworks {
+    padding: 50px 0;
+}
+
+.card {
+    border: none;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+#video-streaming {
+    padding: 50px 0;
+}
+
+#video-streaming h2 {
+    font-size: 2rem;
+}
+
+#video-streaming video {
+    width: 100%;
+    height: auto;
+}
+
+#video-streaming h3 {
+    font-size: 1;
+}
+
+#algorithms,
+#best-practices {
+    padding: 50px 0;
+}
+
+.section-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#algorithms p,
+#best-practices p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+#algorithms ul,
+#best-practices ol {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+#algorithms ul li,
+#best-practices ol li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#contact {
+    padding: 50px 0;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form form {
+    margin-top: 20px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form .form-control {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    border: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}

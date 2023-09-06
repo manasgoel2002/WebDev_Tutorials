@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WebDev Tutorials - Your source for web development knowledge">
+    <meta name="keywords" content="web development, tutorials, programming, coding">
+    <meta name="author" content="Your Name">
+    
+    <title>WebDev Tutorials</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">WebDev Tutorials</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#programming-languages">Programming Languages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#frameworks">Frameworks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#algorithms">Algorithms</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#best-practices">Best Practices</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sections for Content -->
+    <section id="home" class="jumbotron text-center">
+        <h1>Welcome to WebDev Tutorials</h1>
+        <p>Your source for web development knowledge</p>
+        <a href="#programming-languages" class="btn btn-primary">Explore Tutorials</a>
+    </section>
+    <section id="video-streaming" class="container">
+        <h2 class="section-heading">Video Streaming</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <video controls width="100%" height="auto">
+                    <source src="tutorial-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="col-md-6">
+                <h3>Video Information</h3>
+                <p>Here, you can watch our latest tutorial video on web development. Feel free to adjust the video quality and playback speed to suit your preferences.</p>
+                <label for="video-quality">Select Video Quality:</label>
+                <select id="video-quality">
+                    <option value="auto">Auto</option>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+                <br>
+                <label for="video-speed">Select Playback Speed:</label>
+                <select id="video-speed">
+                    <option value="1.0">Normal (1x)</option>
+                    <option value="1.5">1.5x</option>
+                    <option value="2.0">2x</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    
+    <section id="programming-languages" class="container">
+        <h2 class="section-heading">Programming Languages</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="language1.jpg" class="card-img-top" alt="Language 1">
+                    <div class="card-body">
+                        <h3 class="card-title">HTML</h3>
+                        <p class="card-text">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the meaning and structure of web content.<br><br></p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="language2.svg" class="card-img-top" alt="Language 2">
+                    <div class="card-body">
+                        <h3 class="card-title">Python</h3>
+                        <p class="card-text">Python is best suited for data analysis and manipulation, machine learning, designing desktop applications, server-side web development (where it is nearly synonymous with Django), and AI.<br><br></p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="language3.jpg" class="card-img-top" alt="Language 3">
+                    <div class="card-body">
+                        <h3 class="card-title">Swift</h3>
+                        <p class="card-text">Created by Apple, Swift is a high-level programming language that lets developers write code efficiently and simply. Apple first released Swift in 2014, but the company announced plans to make it open source in 2017.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="frameworks" class="container">
+        <h2 class="section-heading">Frameworks</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="framework1.jpg" class="card-img-top" alt="Framework 1">
+                    <div class="card-body">
+                        <h3 class="card-title">Django</h3>
+                        <p class="card-text">DIt was invented to meet fast-moving newsroom deadlines while satisfying the tough requirements of experienced Web developers. Django developers say the applications are ridiculously fast, secure, scalable, and versatile.<br><br><br></p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="framework2.jpg" class="card-img-top" alt="Framework 2">
+                    <div class="card-body">
+                        <h3 class="card-title">Angular</h3>
+                        <p class="card-text">Angular is a framework by Google (originally developed by Misko Hevery and Adam Abrons) which helps us in building powerful Web Apps. It is a framework to build large scale and high-performance web applications while keeping them as easy-to-maintain.<br><br></p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="framework3.jpg" class="card-img-top" alt="Framework 3">
+                    <div class="card-body">
+                        <h3 class="card-title">METEOR</h3>
+                        <p class="card-text">Meteor or MeteorJS is another framework that gives one a radically simpler way to build realtime mobile and web apps. It allows for rapid prototyping and produces cross-platform (Web, Android, iOS) code. Its cloud platform, Galaxy, greatly simplifies deployment, scaling, and monitoring.<br><br></p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="algorithms" class="container">
+        <h2 class="section-heading">Algorithms</h2>
+        <p>This section provides educational content and resources related to algorithms. You can find tutorials, examples, and best practices for algorithm design and analysis here.</p>
+        <ul>
+            <li>Algorithm 1</li>
+            <li>Algorithm 2</li>
+            <li>Algorithm 3</li>
+        </ul>
+    </section>
+    
+    <section id="best-practices" class="container">
+        <h2 class="section-heading">Best Practices</h2>
+        <p>Discover best practices and guidelines for web development in this section. Learn how to write clean, maintainable code and follow industry standards.</p>
+        <ol>
+            <li>Use version control for your projects.</li>
+            <li>Optimize images for web.</li>
+            <li>Implement responsive design.</li>
+        </ol>
+    </section>
+    
+    <section id="contact" class="container">
+        <h2 class="section-heading">Contact Us</h2>
+        <p>If you have any questions, feedback, or inquiries, feel free to get in touch with us. We'd love to hear from you!</p>
+    
+        <div class="contact-form">
+            
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+
+</body>
+</html>
